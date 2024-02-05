@@ -35,7 +35,7 @@
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
                     RenderOptions.EdgeMode="Aliased"
-                    Margin="20">
+                    Margin="20,20,20,20">
                 <UniformGrid x:Name="GameGrid"
                              Width="400" Height="400"
                              Background="{StaticResource GridBackgroundColor}"
@@ -51,15 +51,15 @@
                     Height="{Binding Path=ActualHeight, ElementName=GridBorder}"
                     Margin="{Binding Path=Margin, ElementName=GridBorder}"
                     RenderOptions.EdgeMode="Aliased">
+            
+                <TextBlock x:Name="OverlayText"
+                           Text="Press Any Key to Begin"
+                           FontSize="24"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Grid.Row="1"/>
             </Border>
-
-            <TextBlock x:Name="OverlayText"
-                       Text="Press Any Key to Begin"
-                       FontSize="30"
-                       HorizontalAlignment="Center"
-                       VerticalAlignment="Center"
-                       TextWrapping="NoWrap" Grid.Row="1"/>
         </Grid>
     </Viewbox>
 </Window>
-

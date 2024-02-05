@@ -40,6 +40,7 @@ namespace Snake_Game_2
         private async Task RunGame()
         {
             Draw();
+            await ShowCountDown();
             Overlay.Visibility = Visibility.Hidden;
             await GameLoop();
             await ShowGameover();
@@ -145,6 +146,15 @@ namespace Snake_Game_2
             }
         }
 
+        private async Task ShowCountDown()
+        {
+            for(int i = 3; i >= 0; i--)
+            {
+                OverlayText.Text = i.ToString();
+                await Task.Delay(500);
+            }
+        }
+
         private void DrawSnakeHead()
         {
             Position headPos = gamestate.Headposition();
@@ -166,9 +176,11 @@ namespace Snake_Game_2
                 await Task.Delay(40);
             }
         }
+        
 
         private async Task ShowGameover()
         {
+            
             await DrawDeadSnake();
             await Task.Delay(1000);
             Overlay.Visibility = Visibility.Visible;
