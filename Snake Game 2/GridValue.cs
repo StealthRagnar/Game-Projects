@@ -7,6 +7,7 @@ namespace Snake_Game_2
         Empty,
         Snake,
         Food,
-        Outside
+        Outside // when snake try to move outside grid, althou
+      //not stored in game 
     }
 }

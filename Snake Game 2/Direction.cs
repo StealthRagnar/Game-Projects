@@ -1,18 +1,21 @@
 ﻿
-
 namespace Snake_Game_2
 {
     public class Direction
     {
+
         public readonly static Direction Left = new Direction(0, -1);
         public readonly static Direction Right = new Direction(0, 1);
         public readonly static Direction Up = new Direction(-1, 0);
         public readonly static Direction Down = new Direction(1, 0);
 
-        public int RowOffSet { get;  }
+        public int RowOffSet { get; }
         public int ColumnOffSet { get; }
 
-        private Direction(int rowOffSet, int columnOffSet) { RowOffSet = rowOffSet; ColumnOffSet = columnOffSet; }
+        private Direction(int rowOffSet, int columnOffSet) { 
+            RowOffSet = rowOffSet; 
+            ColumnOffSet = columnOffSet;
+        }
 
         public Direction Opposite()
         {
