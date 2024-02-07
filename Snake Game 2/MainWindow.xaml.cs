@@ -182,7 +182,11 @@ namespace Snake_Game_2
             await DrawDeadSnake();
             await Task.Delay(1000);
             Overlay.Visibility = Visibility.Visible;
-            OverlayText.Text = "Game Over, Restart";
+            OverlayText.Text = $"Your Score is: {gamestate.Score} \nGame Over, Restart";
+            if(gamestate.Score >= 20)
+            {
+                OverlayText.Text = $"Congratulations, Highest Score: {gamestate.Score}\n Restart";
+            }
         }
 
 
