@@ -43,7 +43,7 @@
                              RenderOptions.BitmapScalingMode="HighQuality">
                 </UniformGrid>
             </Border>
-
+            
             <Border x:Name="Overlay"
                     Grid.Row="1"
                     Background="{StaticResource OverlayColor}"

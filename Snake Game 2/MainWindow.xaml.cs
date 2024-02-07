@@ -91,8 +91,6 @@ namespace Snake_Game_2
             }
         }
 
-
-
         private async Task GameLoop()
         {
             while (!gamestate.Gameover)
