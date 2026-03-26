@@ -1,10 +1,10 @@
 ---
-title: "🧠 What’s Cooking in Tech Today (March 26, 2026)"
+title: "🧠 What’s Cooking in Tech Today (March, 2026)"
 seoTitle: "What’s Cooking in Tech Today AI Agents, Serverless and more"
 seoDescription: "Stay updated with the latest tech trends in March 2026—AI agents, serverless evolution, composable architecture, and developer experience innovations "
 datePublished: 2026-03-26T17:02:31.394Z
 cuid: cmn7q0b1c02282dmmca2s6itq
-slug: what-s-cooking-in-tech-today-march-26-2026
+slug: what-s-cooking-in-tech-today-march-2026
 ogImage: https://cdn.hashnode.com/uploads/og-images/654a0052ae17ceea70d90f4b/ce2fe134-53f7-4b97-92f5-887acf08ed5a.png
 tags: ai, artificial-intelligence, software-development, programming-blogs, webdevelopment, web-development, cloud-computing, coding, devops, software-engineering, it, serverless, developer-experience, programming-basics, newtechnology, techtrends, developerexperience, codingwithai
 
